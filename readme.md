@@ -21,7 +21,7 @@ sudo apt install /root/autodl-tmp/autodl_proxy/xray_25.8.3_amd64.deb
 
 v2raya
 ```
-开启端口转发在本机电脑打开：$ssh -L 2017:localhost:2017 user@remote_server$
+开启端口转发在本机电脑打开：$ssh -p XX -L 2017:localhost:2017 user@remote_server$
 
 http://127.0.0.1:2017
 
